@@ -24,7 +24,6 @@ $app-direction: ltr;
 
 
 
-
 // Named Color Variables
 // --------------------------------------------------
 // Named colors makes it easy to reuse colors on various components.
@@ -55,11 +54,9 @@ $colors: (
 
 
 
-
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
-
 
 
 
@@ -86,3 +83,5 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@import "sidemenu/sidemenu";
